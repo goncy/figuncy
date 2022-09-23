@@ -15,15 +15,15 @@ specifiers:
 dependencies:
   node-cron: 3.0.2
   node-notifier: 10.0.1
-  playwright: 1.25.2
+  playwright: 1.26.0
 
 devDependencies:
-  '@playwright/test': 1.25.2
-  '@types/node': 18.7.16
+  '@playwright/test': 1.26.0
+  '@types/node': 18.7.19
   '@types/node-cron': 3.0.4
   '@types/node-notifier': 8.0.2
-  nodemon: 2.0.19
-  ts-node: 10.9.1_jq3ovzqw3j7j4aj2v37zonaj5u
+  nodemon: 2.0.20
+  ts-node: 10.9.1_u7tj3mdglidusk2sd73zi6kt7q
   typescript: 4.8.3
 
 packages:
@@ -51,13 +51,13 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@playwright/test/1.25.2:
-    resolution: {integrity: sha512-6qPznIR4Fw02OMbqXUPMG6bFFg1hDVNEdihKy0t9K0dmRbus1DyP5Q5XFQhGwEHQkLG5hrSfBuu9CW/foqhQHQ==}
+  /@playwright/test/1.26.0:
+    resolution: {integrity: sha512-D24pu1k/gQw3Lhbpc38G5bXlBjGDrH5A52MsrH12wz6ohGDeQ+aZg/JFSEsT/B3G8zlJe/EU4EkJK74hpqsjEg==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
-      '@types/node': 18.7.16
-      playwright-core: 1.25.2
+      '@types/node': 18.7.19
+      playwright-core: 1.26.0
     dev: true
 
   /@tsconfig/node10/1.0.9:
@@ -83,11 +83,11 @@ packages:
   /@types/node-notifier/8.0.2:
     resolution: {integrity: sha512-5v0PhPv0AManpxT7W25Zipmj/Lxp1WqfkcpZHyqSloB+gGoAHRBuzhrCelFKrPvNF5ki3gAcO4kxaGO2/21u8g==}
     dependencies:
-      '@types/node': 18.7.16
+      '@types/node': 18.7.19
     dev: true
 
-  /@types/node/18.7.16:
-    resolution: {integrity: sha512-EQHhixfu+mkqHMZl1R2Ovuvn47PUw18azMJOTwSZr9/fhzHNGXAJ0ma0dayRVchprpCj0Kc1K1xKoWaATWF1qg==}
+  /@types/node/18.7.19:
+    resolution: {integrity: sha512-Sq1itGUKUX1ap7GgZlrzdBydjbsJL/NSQt/4wkAxUJ7/OS5c2WkoN6WSpWc2Yc5wtKMZOUA0VCs/j2XJadN3HA==}
     dev: true
 
   /abbrev/1.1.1:
@@ -295,11 +295,10 @@ packages:
       which: 2.0.2
     dev: false
 
-  /nodemon/2.0.19:
-    resolution: {integrity: sha512-4pv1f2bMDj0Eeg/MhGqxrtveeQ5/G/UVe9iO6uTZzjnRluSA4PVWf8CW99LUPwGB3eNIA7zUFoP77YuI7hOc0A==}
+  /nodemon/2.0.20:
+    resolution: {integrity: sha512-Km2mWHKKY5GzRg6i1j5OxOHQtuvVsgskLfigG25yTtbyfRGn/GNvIbRyOf1PSCKJ2aT/58TiuUsuOU5UToVViw==}
     engines: {node: '>=8.10.0'}
     hasBin: true
-    requiresBuild: true
     dependencies:
       chokidar: 3.5.3
       debug: 3.2.7_supports-color@5.5.0
@@ -330,18 +329,18 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /playwright-core/1.25.2:
-    resolution: {integrity: sha512-0yTbUE9lIddkEpLHL3u8PoCL+pWiZtj5A/j3U7YoNjcmKKDGBnCrgHJMzwd2J5vy6l28q4ki3JIuz7McLHhl1A==}
+  /playwright-core/1.26.0:
+    resolution: {integrity: sha512-p8huU8eU4gD3VkJd3DA1nA7R3XA6rFvFL+1RYS96cSljCF2yJE9CWEHTPF4LqX8KN9MoWCrAfVKP5381X3CZqg==}
     engines: {node: '>=14'}
     hasBin: true
 
-  /playwright/1.25.2:
-    resolution: {integrity: sha512-RwMB5SFRV/8wSfK+tK8ycpqdzORvoqUNz9DUeRfSgZFrZej5uuBl9wFjWcc+OkXFEtaPmx1acAVGG7hA4IJ1kg==}
+  /playwright/1.26.0:
+    resolution: {integrity: sha512-XxTVlvFEYHdatxUkh1KiPq9BclNtFKMi3BgQnl/aactmhN4G9AkZUXwt0ck6NDAOrDFlfibhbM7A1kZwQJKSBw==}
     engines: {node: '>=14'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      playwright-core: 1.25.2
+      playwright-core: 1.26.0
     dev: false
 
   /pstree.remy/1.1.8:
@@ -405,7 +404,7 @@ packages:
       nopt: 1.0.10
     dev: true
 
-  /ts-node/10.9.1_jq3ovzqw3j7j4aj2v37zonaj5u:
+  /ts-node/10.9.1_u7tj3mdglidusk2sd73zi6kt7q:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -424,7 +423,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 18.7.16
+      '@types/node': 18.7.19
       acorn: 8.8.0
       acorn-walk: 8.2.0
       arg: 4.1.3
