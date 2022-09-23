@@ -2,10 +2,10 @@ import { chromium } from 'playwright'
 import notifier from 'node-notifier'
 import cron from 'node-cron'
 
+const browser = await chromium.launch()
 cron.schedule("* * * * *", async () => {
   console.log(`Running on: ${new Date().toLocaleString('es-AR', { timeZone: 'America/Buenos_Aires' })}`)
 
-  const browser = await chromium.launch()
   const page = await browser.newPage()
   await page.goto('https://www.zonakids.com/productos/pack-x-25-sobres-de-figuritas-fifa-world-cup-qatar-2022/')
 
@@ -20,5 +20,5 @@ cron.schedule("* * * * *", async () => {
     })
   }
   
-  await browser.close()
+  await page.close()
 })
