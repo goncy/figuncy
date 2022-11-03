@@ -3,7 +3,7 @@ import notifier from 'node-notifier'
 import cron from 'node-cron'
 import fetch from 'isomorphic-unfetch'
 
-const BOT_KEY = `5613011886:AAEMFXLaACDTxwSNma5sODJP1B4ymCj8OvM`
+const BOT_KEY = ``
 const PAGE = 'https://www.zonakids.com/productos/pack-x-25-sobres-de-figuritas-fifa-world-cup-qatar-2022/'
 
 async function main() {
